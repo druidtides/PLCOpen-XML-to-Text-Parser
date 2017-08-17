@@ -1,6 +1,8 @@
 # PLCOpen-XML-to-Text-Parser
 PLCOpen files are often available as exports.  This script will convert the XML format to a more readable text for which can be used for code comparison tools
 
+Usage:   parse.py inputfile.xml  (note current version requires you replace the first line <project .... > with <project>
+
 From the website, http://www.plcopen.org/pages/tc6_xml/xml_intro/index.htm
 PLCopen first published the XML schema and documentation in June 2005 as version 1.01. The PLCopen specification is implemented by suppliers in Japan and Germany.
 With a new initiative called AutomationML we came to a new phase. The companies Daimler, ABB, KUKA, Rockwell, Siemens, netAllied and Zühlke together with the University of Karlsruhe and the University of Magdeburg jointly defined and standardized the Automation Markup Language as an intermediate format for the Digital Factory. For more information check www.automationML.org. 
